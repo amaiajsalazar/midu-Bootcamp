@@ -4,13 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-// let counter = 1
+let counter = 1
 
-// const refresh = () => {
-//   ReactDOM.createRoot(document.getElementById('root')).render(
-//     <App counter={counter} />
-//   )
-// }
+const refresh = () => {
+  ReactDOM.createRoot(document.getElementById('root')).render(
+    <App counter={counter} />
+  )
+}
 
 // refresh()
 // counter += 1
